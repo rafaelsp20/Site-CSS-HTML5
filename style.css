@@ -1,0 +1,331 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+#containerPrincipal{
+
+  background-color: chartreuse;
+  width: 1450px;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #343434;
+     
+}
+
+header h1 {
+
+padding: 15px 0 0 0px;
+align-items: center;
+}
+
+.container {
+ 
+height: 88px;
+background-color: rgb(19, 18, 18);
+
+}
+
+.principal {
+
+    text-align: center;
+    max-height: 860px;
+    min-width: 320px;
+    clear:both;
+    background-size: cover;
+    background-image: url(./img/city4.jpg);
+    
+}
+
+.principal h1 {
+
+    color: #f5f5f5;
+    padding: 25px;
+    text-shadow: 1px 1px 1px #111;
+}
+
+.principal p {
+
+  
+    font-family: "Signika", sans-serif;
+    font-style: normal;
+    font-size: 23px;
+    text-shadow: 0px 0px 0px #5b5a5a;
+    color: white;
+    padding: 55px 0 0 25px;
+
+}
+
+footer {
+    
+    text-align: center;
+    background-color: #5b5a5a;
+    min-width: 320px;
+    max-height: 50px;        
+}
+
+footer p {
+
+    color: rgb(218, 204, 204);
+    font-size: 14px;
+    padding-top: 9px;
+    font-weight: bold;
+
+}
+
+.dados-contato {
+
+min-height: 30px;
+min-width: 320px;
+max-width: 1350px;
+background-color: 	#FF1493;
+
+}
+.dados-contato p {
+
+  color: rgb(17, 16, 16);
+  font-weight: bold;
+  font-size: 14px;
+  float: right;
+  padding: 8px 10px 0 10px;
+ 
+}
+
+.dados-contato i {
+  float: right;
+  padding: 6px 0 4px 2px;
+}
+
+#menu {
+
+    font-size: 31px;
+    background-color: #343434;
+    height: 88px;
+    flex-wrap: wrap;
+    padding-right: 25px;
+    
+
+}
+
+#menu a {
+ 
+    text-decoration: none;
+    color: #CACACA;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: (--wf-system---typography-font-family-sans-serif);    
+    margin-left: 25px;
+    
+    
+}
+
+#menu a:hover {
+
+color: #a3a3a3;
+
+}
+
+#logo {
+
+    float: left;
+    padding: 2px 0 0 125px;    
+
+}
+
+#container img {
+
+    height: 25px;
+}
+
+.efeito {
+
+    padding: 35px 45px 0 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 475px;
+    width: 1302x;
+  
+
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+  
+  /* Clear floats after image containers */
+  
+  .button {
+
+  color: white;
+  width: 225px;
+  min-height: 46px; 
+  text-decoration: none;
+  margin: 0 auto; 
+  cursor: pointer;
+  background-color: #FF00FF;
+  border: #FF00FF;
+  border-radius: 3px;
+  }
+
+  .button3 {
+
+    color: rgb(201, 215, 208);
+    width: 225px;
+    margin-top: 140px;
+    min-height: 46px; 
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    }
+
+  /*.button2 {background-color: #008CBA;} /* Blue */
+  .button2:hover {
+    background-color: #e70b33;
+    text-align: center;
+  
+  }
+
+  .button3:hover {
+    background-color: #cacaca;
+    text-align: center;
+    color: #141414;
+  
+  }
+
+  .containerimg{
+    
+    clear:both;
+    margin: 0 auto;
+    display: flex;
+    background-color: #3d3d3d;
+    flex-wrap: wrap;
+
+  }
+  .containerimg div{
+
+    flex: 1 1 350px;
+    background-color: #e70b33;
+
+
+    /*flex-shrink: 1;*/
+
+  }  
+  
+  .destaque {
+  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background-color: rgb(85, 78, 75);    
+  
+  }
+
+  #destaque p {
+
+    color: #e70b33;
+  }
+  .wrapper {
+
+    margin: 150px auto;
+    width: 100%;
+  }
+
+  .wrapper img {
+
+    max-width: 400px;
+    min-width: 320px;
+    float: left;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-right: 65px;
+    margin-left: 55px;
+
+  }
+
+  .text-box {
+
+    color: white;
+  }
+
+  .text-box h2 {
+font-size: 42px;
+
+  }
+  .text-box p {
+
+    margin-top: 15px;
+    font-size: 26px;    
+    line-height: 1.6;
+  }
+   
+ 
+  .elemento p {
+text-align: center;
+color:#CACACA;
+margin: 0 auto;
+
+ }
+
+
+.regua {
+  display:block;
+  margin:10px 0;
+  height:1px;
+  background-color:#ddd;
+}
+.containerimg img {
+ margin: 10px;
+ width: 100%; 
+ border-radius: 10px;
+ 
+
+}
+  
+.texto {
+
+  text-align: center;
+  min-width: 320px;
+  height: 355px;
+  clear:both;
+  background-size: cover;
+  background-color: #CACACA;
+  padding-top: 35px;
+
+  }
+
+  .texto h1 {
+    
+    margin-bottom: 25PX;
+    padding-top: 105px 0 2px 0 ;
+    color: #3d3d3d;
+  }
+
+  .texto span {
+
+    color: #343434;
+  }
+
+.texto p {
+
+color: #484848;
+margin-bottom: 15px;
+padding: 25px 15px 10px 15px;
+font-size: 22px;
+font-family: "Sofia", sans-serif;
+text-shadow: 0px 0px 0px #5b5a5a;
+line-height: 1.6;
+} 
